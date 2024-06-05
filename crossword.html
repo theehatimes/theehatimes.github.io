@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>the eha times</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    .top-bar {
+      background-color: #192f6a;
+      color: #ffffff;
+    }
+    .content {
+      text-align: center;
+      background-color: #cce5ff;
+      color: #000000;
+      padding: 20px;
+      min-height: calc(100vh - 160px); 
+    }
+    .footer {
+      background-color: #ffffff;
+      color: #000000;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    .carousel {
+        background-color: rgb(154, 235, 238);
+        border-radius: 10px; 
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h5>the eha times</h5>
+        </div>
+        <div class="col text-right">
+          <a href="crossword.html">weekly crossword</a> | <a href="advertisements.html">advertisements</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="container">
+      <h3>the eha times</h3> 
+      <p>news. that's all it is.</p>
+      <br>
+      <h5>weekly crossword</h5>
+      <iframe height="700px" width="100%" allow="web-share; fullscreen" style="border:none; width: 100% !important; position: static;display: block !important; margin: 0 !important;" src="https://amuselabs.com/pmm/crossword?id=aaf91583&set=328663e0606f9c00d947fdc281fb5aec3c76d9230c276b10167b306439c7ba11&embed=1" aria-label="Puzzle Me Game"> </iframe>
+    </div>
+    <div class="container mt-4">
+      <p>got news or an advertisement? contact <a href="mailto:rileyvandermaelen@east-haven.k12.ct.us">here</a></p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      &copy; the eha times <span id="year"></span>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
